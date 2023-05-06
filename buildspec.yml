@@ -26,8 +26,3 @@ phases:
             - echo "we are in the post build phase"
             - dotnet publish -c Release
             
-artifacts:
-    files:
-        - '**/*'
-    base-directory: ./build_output
-    discard-paths: no
