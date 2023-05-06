@@ -25,4 +25,6 @@ phases:
         commands:
             - echo "we are in the post build phase"
             - dotnet publish -c Release
-            
+artifacts:
+    files:
+      - '**/*'
